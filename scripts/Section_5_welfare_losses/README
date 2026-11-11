@@ -1,0 +1,9 @@
+This folder contains scripts related to travel cost modeling for Section 4 of the 
+manuscript.
+
+The contents of the folder, in order, are:
+
+-'01_cbg_pm25_process.R': This script calculates smoke-attributable pm2.5 at a given CBG
+-'02_tc_data_cbg_process.R': This script separates local vs. nonlocal visitation and creates scaled weekly variables at the park level
+-'03_tc_regressions.R': This script runs TC regressions at the CBG level
+-'04_welfare_losses.R': This script calculates rec. losses and welfare losses following consumer surplus results from '03_tc_regressions.R' and daily visitation losses from the main regression in Section 3

@@ -1,0 +1,17 @@
+This folder contains scripts related to Section 5 of the manuscript, which 
+estimates the effects of smoke at parks on nearby spending.
+
+The contents, in order, are:
+
+"01_safegraph_api_call.R": this script downloads all Safegraph Spend data from Dewey
+"02_safegraph_weekly_placekey_filter.R": this script reads in Safegraph data and processes the dataset at a weekly resolution
+"03_safegraph_weekly_covariates_process.R": this script reads in the processed Safegraph data and generates all weather, smoke, pm2.5, etc. data at the weekly level
+"04_safegraph_final_weekly_data_process.R": this script reads in the processed Safegraph data and creates all final variables
+"05_advan_poi_filter.R": this script takes the raw advan data and filters it to just include points of interest around parks
+"06_advan_daily_covariates_process.R": this script takes POI points and attributes all rasterized pollution, weather, smoke_plume, and fire distance data to the given POIs. It also adds in daily park-level covariates
+"07_safegraph_daily_data_process.R": this script takes monthly-level Safegraph spending data, converts to daily, and combines with daily visitation data and other relevant covariates
+"08_regressions_safegraph.R": this script runs spending-related regressions using daily data
+"09_regressions_weekly_safegraph.R": this script creates a weekly-level version of the daily spending dataset and estimates weekly-level regressions as a robustness check on credit/debit report timing inconsistencies
+"10_create_gateway_com_map.R": This script creates maps of parks and their associate gateway communities for inclusion as supplementary information in the appendix.
+
+

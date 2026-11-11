@@ -1,0 +1,1 @@
+This repository contains all scripts used to download, clean, and create variables for the estimation of the effect of park smoke on visitation, travel cost modeling and welfare costs, and spending effects.

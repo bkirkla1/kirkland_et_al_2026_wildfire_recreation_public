@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+data/
+output/
+secrets/
+summary_stats_output/
+scripts/misc/
+scripts/old_draft_scripts_data/
+scripts/dissertation_presentation_figures
